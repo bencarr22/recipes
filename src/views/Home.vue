@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloWorld :msg="secrets.GITHUB_PAT" />
+    <HelloWorld msg="hello" />
   </div>
 </template>
 

@@ -9,6 +9,9 @@ export default {
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  mounted: function() {
+    console.log(process.env.VUE_APP_TEST);
   }
 };
 </script>
