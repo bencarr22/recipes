@@ -19,5 +19,6 @@ jobs:
 
       - name: GitHub Pages Deploy
         uses: maxheld83/ghpages@v0.2.1
-        env: BUILD_DIR = "dist/"
-        secrets: ["01f8892576969d39f365cba4e8bf61b44dd45ea8"]
+        with:
+          env: BUILD_DIR = "dist/"
+          secrets: ["01f8892576969d39f365cba4e8bf61b44dd45ea8"]
